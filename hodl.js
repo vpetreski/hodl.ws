@@ -35,7 +35,7 @@ function updateWealth() {
                 let ethPrice = parseInt(r2[0].data.amount);
                 wealth += eth * ethPrice;
             }
-            $("#wealth").html("$ " + Math.trunc(wealth).toLocaleString());
+            $("#wealth").html("$" + Math.trunc(wealth).toLocaleString());
         });
     }
 }
