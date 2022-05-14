@@ -10,7 +10,8 @@ function update() {
         let currencyElement = $("#currency");
 
         if (price > 0 && price !== newPrice) {
-            currencyElement.effect("highlight", {color: newPrice > price ? "#50fa7b" : "#ff5555"}, 2000);
+            currencyElement.css('color', newPrice > price ? '#50fa7b' : '#ff5555');
+            setTimeout(function () { currencyElement.css('color', '#ffb86c'); }, 2000);
         }
 
         price = newPrice;
