@@ -1,9 +1,11 @@
 @import url("normalize.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
 
 html, body {
     background-color: #282a36;
     color: #f8f8f2;
     height: 100%;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Hide scrollbar */
@@ -39,11 +41,7 @@ main {
 }
 
 main div {
-    font-family: 'Helvetica Neue', sans-serif;
     font-size: 20vw;
-    font-weight: bold;
-    letter-spacing: -1px;
-    line-height: 1;
     text-align: center;
     width: 100%;
 }
@@ -80,8 +78,6 @@ main div #value {
     position: absolute;
     bottom: 30px;
     right: 15px;
-    font-family: 'Helvetica Neue', sans-serif;
-    font-size: xx-large;
-    font-weight: bold;
+    font-size: xxx-large;
     color: #50fa7b;
 }
