@@ -3,6 +3,11 @@ let currency = 'btc';
 let searchParams = new URLSearchParams(window.location.search);
 let btc = searchParams.get('btc');
 let eth = searchParams.get('eth');
+let green = '#50fa7b';
+let red = '#ff5555';
+let orange = '#ffb86c';
+let aquamarine = '#8be9fd';
+let blue = '#6272a4';
 
 function update() {
     $.get("https://api.coinbase.com/v2/prices/" + currency + "-usd/spot", function (data) {
@@ -10,8 +15,8 @@ function update() {
         let currencyElement = $("#currency");
 
         if (price > 0 && price !== newPrice) {
-            currencyElement.css('color', newPrice > price ? '#50fa7b' : '#ff5555');
-            setTimeout(function () { currencyElement.css('color', '#ffb86c'); }, 2000);
+            currencyElement.css('color', newPrice > price ? green : red);
+            setTimeout(function () { currencyElement.css('color', orange); }, 2000);
         }
 
         price = newPrice;
@@ -45,8 +50,8 @@ function cryptoChange(isBtc) {
     price = 0;
     currency = isBtc ? 'btc' : 'eth';
 
-    $("#btc").css("color", isBtc ? "#8be9fd" : "#6272a4");
-    $("#eth").css("color", isBtc ? "#6272a4" : "#8be9fd");
+    $("#btc").css("color", isBtc ? aquamarine : blue);
+    $("#eth").css("color", isBtc ? blue : aquamarine);
 
     Cookies.set('currency', isBtc ? 'btc' : 'eth', {expires: 365, secure: true});
 
@@ -61,8 +66,8 @@ function setup() {
 
     if (Cookies.get('currency') === 'eth') {
         currency = 'eth';
-        ethBtn.css("color", "#8be9fd")
-        btcBtn.css("color", "#6272a4")
+        ethBtn.css("color", aquamarine)
+        btcBtn.css("color", blue)
     }
 
     update();
