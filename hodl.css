@@ -41,7 +41,7 @@ header {
 #wealth {
     position: absolute;
     left: 50%;
-    transform: translate(-50%, -5%);
+    transform: translate(-50%, 10%);
     font-size: 9vw;
     margin: 0;
     padding: 0;
