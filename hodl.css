@@ -37,9 +37,6 @@ main {
     align-items: center;
     background-color: #282a36;
     height: 100vh;
-
-    display: -webkit-box;
-    -webkit-box-orient: horizontal;
 }
 
 main div {
