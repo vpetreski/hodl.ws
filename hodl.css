@@ -31,6 +31,23 @@ body {
     color: #f1fa8c
 }
 
+header {
+    width: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+#wealth {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -5%);
+    font-size: 9vw;
+    margin: 0;
+    padding: 0;
+    color: #50fa7b;
+}
+
 main {
     display: flex;
     justify-content: center;
@@ -71,10 +88,10 @@ main div #value {
     cursor: pointer;
 }
 
-#wealth {
+#crypto {
     position: absolute;
     bottom: 30px;
     right: 15px;
     font-size: 9vw;
-    color: #50fa7b;
+    color: #44475a;
 }

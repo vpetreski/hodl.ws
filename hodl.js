@@ -52,7 +52,7 @@ function cryptoChange(isBtc) {
 
     $("#btc").css("color", isBtc ? aquamarine : blue);
     $("#eth").css("color", isBtc ? blue : aquamarine);
-
+    setCrypto(isBtc)
     Cookies.set('currency', isBtc ? 'btc' : 'eth', {expires: 365, secure: true});
 
     update();
@@ -60,15 +60,22 @@ function cryptoChange(isBtc) {
     window.fathom.trackGoal(isBtc ? '3OCRZJLA' : '0QYDFPPK', 0);
 }
 
+function setCrypto(isBtc) {
+    $("#crypto").html(isBtc ? (btc != null ? btc : "") : (eth != null ? eth : ""));
+}
+
 function setup() {
     let btcBtn = $("#btc");
     let ethBtn = $("#eth");
+    let isEth = Cookies.get('currency') === 'eth';
 
-    if (Cookies.get('currency') === 'eth') {
+    if (isEth) {
         currency = 'eth';
         ethBtn.css("color", aquamarine)
         btcBtn.css("color", blue)
     }
+
+    setCrypto(!isEth)
 
     update();
 
