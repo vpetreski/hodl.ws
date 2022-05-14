@@ -40,14 +40,13 @@ main {
 }
 
 main div {
-    font-size: 20vw;
+    font-size: 23vw;
     text-align: center;
     width: 100%;
 }
 
 main div #currency {
     color: #ffb86c;
-    border-radius: 100px;
 }
 
 main div #value {
