@@ -90,7 +90,7 @@ main div #value {
 
 #crypto {
     position: absolute;
-    bottom: -5px;
+    bottom: 0px;
     right: 15px;
     font-size: 9vw;
     color: #44475a;
