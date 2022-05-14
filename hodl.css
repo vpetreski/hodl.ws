@@ -37,6 +37,7 @@ main {
     align-items: center;
     background-color: #282a36;
     height: 100vh;
+    margin: auto;
 }
 
 main div {
