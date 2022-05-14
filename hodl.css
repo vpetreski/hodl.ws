@@ -46,7 +46,7 @@ main div {
 }
 
 main div #currency {
-    color: #50fa7b;
+    color: #ffb86c;
     padding: 0 20px;
     margin-right: 20px;
     border-radius: 100px;
@@ -78,5 +78,5 @@ main div #value {
     bottom: 30px;
     right: 15px;
     font-size: xxx-large;
-    color: #ffb86c;
+    color: #50fa7b;
 }
