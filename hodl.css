@@ -1,5 +1,4 @@
 @import url("normalize.css");
-/*@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');*/
 
 html, body {
     background-color: #282a36;
@@ -47,7 +46,7 @@ main div {
 }
 
 main div #currency {
-    color: #ffb86c;
+    color: #50fa7b;
     padding: 0 20px;
     margin-right: 20px;
     border-radius: 100px;
@@ -79,5 +78,5 @@ main div #value {
     bottom: 30px;
     right: 15px;
     font-size: xxx-large;
-    color: #50fa7b;
+    color: #ffb86c;
 }
