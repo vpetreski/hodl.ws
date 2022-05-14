@@ -5,6 +5,7 @@ html, body {
     color: #f8f8f2;
     height: 100%;
     font-family: 'Montserrat', sans-serif;
+    -webkit-text-size-adjust: none;
 }
 
 /* Hide scrollbar */
@@ -74,8 +75,6 @@ main div #value {
     position: absolute;
     bottom: 30px;
     right: 15px;
-    /*text-size-adjust: none;*/
-    -webkit-text-size-adjust: none;
     font-size: xxx-large;
     color: #50fa7b;
 }
