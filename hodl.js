@@ -100,7 +100,7 @@ function setup() {
     });
 
     $("#help")
-        .prop("title", "<ul><li>Basic: https://hodl.ws</li><li>Wealth: https://hodl.ws/?btc=1.2&amp;eth=3.4</li><li>Bottom-Left crypto switcher</li></ul>")
+        .prop("title", "<ul><li>https://hodl.ws</li><li>https://hodl.ws/?btc=1.2&amp;eth=3.4</li></ul>")
         .tooltip({
             content: function () {
                 return $(this).prop('title');
