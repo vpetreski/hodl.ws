@@ -49,23 +49,14 @@ header {
 }
 
 main {
-    /*display: -webkit-flex;
-    display: flex;
-    -webkit-align-items: center;
-    align-items: center;*/
-
-    display: -webkit-box;
-    -webkit-box-pack: center; /* justify-content */
-    -webkit-box-align: center; /* align-items */
-
-
-    /*display: flex;*/
-    justify-content: center;
-    -webkit-justify-content: center;
-    /*align-items: center;*/
     background-color: #282a36;
-    height: 100vh;
-    margin: auto;
+
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 main div {
