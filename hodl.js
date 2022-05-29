@@ -98,15 +98,4 @@ function setup() {
     ethBtn.click(function () {
         cryptoChange(false);
     });
-
-    $("#help")
-        .prop("title", "<ul><li>https://hodl.ws</li><li>https://hodl.ws/?btc=1.2&amp;eth=3.4</li></ul>")
-        .tooltip({
-            content: function () {
-                return $(this).prop('title');
-            }
-        })
-        .mouseenter(function () {
-            window.fathom.trackGoal('TNFSRU2M', 0);
-        });
 }
