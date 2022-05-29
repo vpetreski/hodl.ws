@@ -2,6 +2,10 @@
 
 ![HODL.WS](og.jpg?raw=true "HODL.WS")
 
+## Donate BTC
+- bc1q769x7glxl0q8ape2kh22pgq68he9zzhp228t6d
+![DONATE BTC](donate-btc.png?raw=true "DONATE BTC")
+
 ## Usage
 - https://hodl.ws
 - https://hodl.ws/?btc=1.23
