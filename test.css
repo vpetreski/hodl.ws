@@ -49,9 +49,14 @@ header {
 }
 
 main {
+    display: -webkit-flex;
     display: flex;
-    justify-content: center;
+    -webkit-align-items: center;
     align-items: center;
+
+    /*display: flex;*/
+    justify-content: center;
+    /*align-items: center;*/
     background-color: #282a36;
     height: 100vh;
     margin: auto;
