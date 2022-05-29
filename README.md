@@ -2,11 +2,6 @@
 
 ![HODL.WS](og.jpg?raw=true "HODL.WS")
 
-## Donate BTC
-- [bc1q769x7glxl0q8ape2kh22pgq68he9zzhp228t6d](https://blockchair.com/bitcoin/address/bc1q769x7glxl0q8ape2kh22pgq68he9zzhp228t6d)
-
-![DONATE BTC](donate-btc.png?raw=true "DONATE BTC")
-
 ## Usage
 - https://hodl.ws
 - https://hodl.ws/?btc=1.23
@@ -14,6 +9,11 @@
 - https://hodl.ws/?btc=1.23&eth=4.56
 
 ![HODL.WS](screenshot.png?raw=true "HODL.WS")
+
+## Donate BTC
+- [bc1q769x7glxl0q8ape2kh22pgq68he9zzhp228t6d](https://blockchair.com/bitcoin/address/bc1q769x7glxl0q8ape2kh22pgq68he9zzhp228t6d)
+
+![DONATE BTC](donate-btc.png?raw=true "DONATE BTC")
 
 ## Developers
 - https://developers.coinbase.com/api/v2#get-spot-price
