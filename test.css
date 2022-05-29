@@ -49,10 +49,15 @@ header {
 }
 
 main {
-    display: -webkit-flex;
+    /*display: -webkit-flex;
     display: flex;
     -webkit-align-items: center;
-    align-items: center;
+    align-items: center;*/
+
+    display: -webkit-box;
+    -webkit-box-pack: center; /* justify-content */
+    -webkit-box-align: center; /* align-items */
+
 
     /*display: flex;*/
     justify-content: center;
