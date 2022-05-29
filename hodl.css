@@ -16,14 +16,6 @@ body {
     box-sizing: border-box;
 }
 
-#help {
-    position: absolute;
-    top: 15px;
-    left: 15px;
-    color: #ff79c6;
-    cursor: pointer;
-}
-
 #moon {
     position: absolute;
     top: 15px;
