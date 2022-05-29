@@ -1,0 +1,97 @@
+@import url("normalize.css");
+
+html, body {
+    background-color: #282a36;
+    color: #f8f8f2;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Hide scrollbar */
+body {
+    overflow: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#help {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: #ff79c6;
+    cursor: pointer;
+}
+
+#moon {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: #f1fa8c
+}
+
+header {
+    width: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+#wealth {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    font-size: 9vw;
+    margin: 0;
+    padding: 0;
+    color: #50fa7b;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282a36;
+    height: 100vh;
+    margin: auto;
+}
+
+main div {
+    font-size: 23vw;
+    text-align: center;
+    width: 100%;
+}
+
+main div #currency {
+    color: #ffb86c;
+}
+
+main div #value {
+    color: #bd93f9;
+}
+
+#switcher {
+    position: absolute;
+    bottom: 30px;
+    left: 15px;
+}
+
+#btc {
+    color: #8be9fd;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+#eth {
+    color: #6272a4;
+    cursor: pointer;
+}
+
+#crypto {
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    font-size: 9vw;
+    color: #44475a;
+}
