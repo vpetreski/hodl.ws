@@ -3,7 +3,7 @@
 ![HODL.WS](og.jpg?raw=true "HODL.WS")
 
 ## Donate BTC
-- bc1q769x7glxl0q8ape2kh22pgq68he9zzhp228t6d
+- [bc1q769x7glxl0q8ape2kh22pgq68he9zzhp228t6d](https://blockchair.com/bitcoin/address/bc1q769x7glxl0q8ape2kh22pgq68he9zzhp228t6d)
 
 ![DONATE BTC](donate-btc.png?raw=true "DONATE BTC")
 
