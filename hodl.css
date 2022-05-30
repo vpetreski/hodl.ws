@@ -78,12 +78,12 @@ main div #value {
 
 #eth {
     color: #6272a4;
+    margin-right: 15px;
     cursor: pointer;
 }
 
 #coffee {
     color: #ff5555;
-    cursor: pointer;
 }
 
 #crypto {
