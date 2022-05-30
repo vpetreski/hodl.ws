@@ -84,7 +84,7 @@ function setup() {
     }, 3000);
 
     setInterval(function () {
-        $("#coffee").effect("bounce", "slow");
+        $("#moon").effect("bounce", "slow");
     }, 60000);
 
     setInterval(function () {
