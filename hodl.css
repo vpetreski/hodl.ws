@@ -81,6 +81,11 @@ main div #value {
     cursor: pointer;
 }
 
+#coffee {
+    color: #ff5555;
+    cursor: pointer;
+}
+
 #crypto {
     position: absolute;
     bottom: 10px;
