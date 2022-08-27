@@ -3,6 +3,7 @@ let currency = 'btc';
 let searchParams = new URLSearchParams(window.location.search);
 let btc = searchParams.get('btc');
 let eth = searchParams.get('eth');
+let reload = searchParams.get('reload');
 let green = '#50fa7b';
 let red = '#ff5555';
 let orange = '#ffb86c';
@@ -87,9 +88,11 @@ function setup() {
         $("#moon").effect("bounce", "slow");
     }, 60000);
 
-    setInterval(function () {
-        location.reload();
-    }, 3600000);
+    if (reload) {
+        setInterval(function () {
+            location.reload();
+        }, 3600000);
+    }
 
     btcBtn.click(function () {
         cryptoChange(true);
